@@ -1,0 +1,35 @@
+# Ignorar archivos de sistema y temporales
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Ignorar carpetas de dependencias (si llegas a usar Composer o Node)
+vendor/
+node_modules/
+
+
+# Ignorar todas las imágenes de formatos comunes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+*.ico
+
+# Ignorar documentos de oficina y PDFs
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Ignora la carpeta archivos, que es la que contiene imagenes
+archivos/
+
+# Ignorar archivos de configuración de Laragon o IDEs
+.idea/
+.vscode/
+*.log
