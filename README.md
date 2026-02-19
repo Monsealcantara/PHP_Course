@@ -18,4 +18,4 @@ En este curso estoy aprendiendo sobre:
 Si quieres probar los ejercicios en tu propia máquina:
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/Monsealcantara/PHP_Course.git](https://github.com/Monsealcantara/PHP_Course.git)
+   git clone https://github.com/Monsealcantara/PHP_Course.git
