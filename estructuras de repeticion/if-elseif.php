@@ -1,5 +1,6 @@
 <?php
-// $dia=5;
+
+// $dia=6;
 
 // if($dia==1){
 //     echo "Lunes";

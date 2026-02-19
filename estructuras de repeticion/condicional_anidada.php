@@ -18,3 +18,23 @@ if($genero=="M"){
 }else {
     echo "Coloque una opción válida";
 }
+
+//Ejemplo hecho de nuevo
+$sexo="H";
+$edad=54;
+
+if($sexo=="H"){
+    if($edad>=65){
+        echo "Se puede jubilar";
+    }else{
+        echo "No se puede jubilar";
+    }
+}elseif($sexo=="M"){
+    if($edad>=54){
+        echo "Se puede jubilar";
+    }else{
+        echo "No se puede jubilar";
+    }
+}else{
+    echo "Coloque una opción válida";
+}
