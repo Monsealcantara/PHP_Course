@@ -13,11 +13,11 @@ foreach($laptop as $valor){ //recorre el arreglo y muestra sus valores
     echo $valor."<br>";
 }
 foreach($laptop as $clave => $valor){ //recorre el arreglo y muestra sus valores y clave
-    echo "Clave".$clave."su valor:".$valor."<br>";
+    echo $clave."-".$valor."<br>";
 }
 
 foreach($frutas as $clave => $valor){ //recorre el arreglo y muestra sus valores y clave
-    echo "Clave".$clave."su valor:".$valor."<br>";
+    echo "Clave ".$clave." su valor:".$valor."<br>";
 }
 echo "<br>";
 echo "<br>";

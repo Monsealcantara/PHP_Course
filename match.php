@@ -20,7 +20,7 @@ $edad=10;
 $resultado=match (true) {
     $edad >= 60 =>"Eres de la tercera edad",    
     $edad >= 30 =>"Eres adulto" ,
-    $edad >= 18 =>"Eres jovens" ,
+    $edad >= 18 =>"Eres joven" ,
     default => "Eres un niño"
 };
 
