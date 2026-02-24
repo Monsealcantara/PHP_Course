@@ -12,7 +12,7 @@ echo hash("md5",$clave)."<br>";
 // }
 
 echo password_hash($clave,PASSWORD_DEFAULT);    //CON SU EJECUCION SE MUESTRA SIEMPRE UNA CONTRASEÑA DIFERETE
-$clave_procesada=password_hash($clave,PASSWORD_BCRYPT,["cost"=>11]);    //con esta sintaxis se aplican 11 c¿veces el algoritmo
+$clave_procesada=password_hash($clave,PASSWORD_BCRYPT,["cost"=>11]);    //con esta sintaxis se aplican 11 veces el algoritmo
 
 echo password_verify($clave,$clave_procesada);
 
