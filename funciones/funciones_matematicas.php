@@ -14,5 +14,5 @@ echo ceil(7.3);    //redondea hacia arriba a su núm proximo
 echo "<br>";
 echo round(4.8); //redondea hacia arriba o hacia abajo dependiendo de los decimales
 echo "<br>";
-echo round(5.084,3);        //redondea tomando 2 decimales
+echo round(5.084,2);        //redondea tomando "n" decimales, en este ejemplo se redondea a 2
 

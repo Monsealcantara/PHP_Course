@@ -6,7 +6,7 @@ echo strtoupper($cadena_texto);     //convierte todo en mayus
 echo "<br>";
 echo ucfirst($cadena_texto);        //solo pone la primer letra en mayus
 echo "<br>";
-echo ucwords($cadena_texto);        //convierte la primer leyra a mayus de cada palabra
+echo ucwords($cadena_texto);        //convierte la primer letra a mayus de cada palabra
 echo "<br>";
 $longitud=strlen($cadena_texto);   //indica el tamaño de la cadena
 echo "Hola mundo tiene estos carcteres".$longitud;
